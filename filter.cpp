@@ -120,12 +120,6 @@ int main() {
 	measurements.push_back(single_meas);
 	single_meas << 12;
 	measurements.push_back(single_meas);
-	single_meas << 14;
-	measurements.push_back(single_meas);
-	single_meas << 16;
-	measurements.push_back(single_meas);
-	single_meas << 18;
-	measurements.push_back(single_meas);
 	
 	//call Kalman filter algorithm
 	filter(x, P);
